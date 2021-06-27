@@ -10,6 +10,9 @@ function App() {
             <Nav/>
             <MainPage/>
             <AsidePage1/>
+            <div>
+                
+            </div>
         </div>
     )
 }
