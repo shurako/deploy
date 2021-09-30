@@ -25,11 +25,8 @@ const uri = 'mongodb+srv://user1:12345@cluster0.vnpml.mongodb.net/myFirstDatabas
 mongoose.connect(uri, {useNewUrlParser : true}, () => {
     
 } )
-// mongoose.connection.on('connected', () => {
-//     console.log('mongoose is connected on ' + port)
-   
-// })
-app.listen( 3001 , () => {
+
+app.listen( port , () => {
     console.log('server connected')
 })
  
