@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "pls",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +38,29 @@
   },
   "devDependencies": {
     "styled-components": "^5.3.0"
+=======
+  "name": "gym-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+>>>>>>> 5dd0bae (deploy)
   }
 }
