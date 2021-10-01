@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === 'production') {
     app.get('*', function(req, res) {
       res.sendFile(path.join(__dirname, 'gym/build', 'index.html'));
     });
-  }
+  } 
   
   // ** MIDDLEWARE ** //
   const whitelist = ['http://localhost:3001', 'http://localhost:8080']
@@ -35,6 +35,7 @@ if (process.env.NODE_ENV === 'production') {
       if (whitelist.indexOf(origin) !== -1 || !origin) {
         console.log("Origin acceptable")
         callback(null, true)
+        
       } else {
         console.log("Origin rejected")
         callback(new Error('Not allowed by CORS'))
